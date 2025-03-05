@@ -84,6 +84,45 @@
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/0jeGRBRfQ48?si=Aw_QtnTn1gsezhxR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+    <!-- CONNECT WITH US FORM -->
+    <div id="connect">
+        <h2>Connect with Us</h2>
+        <div class="connect-container">
+            <div class="connect-para">
+                <p>Interested in our mission? Fill out the form below to share your name and email!</p>
+            </div>
+            <div class="connect-participants">
+                <p>🎟️ DJ from Texas has connected.</p>
+                <p>🎟️ Amy from New York has connected.</p>
+                <p>🎟️ Teresa from Montana has connected.</p>
+            </div>
+        </div>
+
+
+        <!-- Connect Form -->
+        <div class="form-container">
+            <form
+                id="connect-form"
+                title="connect-form"
+                action="https://formspree.io/f/yourFormID"
+                method="POST"
+            >
+
+                <!-- Name Input -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <!-- Submit button -->
+                <button id="connect-button" type="submit">Submit</button>
+            </form>
+        </div>      
+    </div>
+
+
 </body>
 
 
