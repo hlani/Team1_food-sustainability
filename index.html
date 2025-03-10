@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width">
     <link ref="icon" href="/img/market.png">
     <link href="reset.css" rel="stylesheet" type="text/css" />
-    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
 <body>
 	<!--- NAVBAR --->
-
+    
 
     <!--- HEADINGS--->
      <header class="header-container">
@@ -69,6 +69,66 @@
     <p>Why?
     </p>
 
+    <nav>
+        <ul>
+          <li><a href="#" onclick="showTab('home')">Home</a></li>
+          <li><a href="#" onclick="showTab('info')">More Information</a></li>
+        </ul>
+
+    <!--NICHOLES part-->
+      </nav>
+      
+      <!-- Content Sections -->
+      <div id="highProtein" class="tab-content">
+        <h2>High Protein Intake</h2>
+        <p>Farmers markets near you that have high protein foods and fresh produce.</p>
+        <ul>
+          <li>Pacific Beach Farmers Market</li>
+            <ul>
+                <li>Open from 2-7 PM every Tuesday at 901 Hornblend St., San Diego, CA 92109</li>
+                <li></li>
+            </ul>
+          <li>Hillcrest Farmers Market</li>
+          <ul>
+            <li>Open from 9 AM - 2 PM every Sunday</li>
+            <li>Includes live music</li>
+        </ul>         
+          <li>Little Italy Mercato Farmers Market</li>
+          <ul>
+            <li>Open from 8 AM-2 PM every Saturday and 9:30 AM - 1:30 PM every Wednesday</li>
+            <li></li>
+        </ul>
+          <li>La Jolla Open Aire Farmers Market</li>
+          <ul>
+            <li>Open from 9 AM - 1 PM every Sunday</li>
+            <li></li>
+        </ul>
+          <li>Ocean Beach Farmers Market</li>
+          <ul>
+            <li></li>
+            <li></li>
+        </ul>
+          <li>Coronado Farmers Market</li>
+          <ul>
+            <li></li>
+            <li></li>
+        </ul>
+          <li>North Park Farmers Market</li>
+          <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        </ul>
+      </div>
+      
+      <div id="info" class="tab-content" style="display:none;">
+        <h1>More Information</h1>
+        <article>
+            <h3>Hunger in San Diego</h3>
+            <p>Article Summary</p>
+        </article>
+        <!-- Add more content as needed -->
+      </div>
 
     <!--- News --->
     <h2>Recent News</h2>
