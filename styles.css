@@ -133,6 +133,7 @@ nav ul li a:hover {
     background-color: #dfd8c6;
 }
 
+/* Tab Content Styling */
 .tab-content {
     margin-top: 20px;
     padding: 15px;
@@ -140,12 +141,13 @@ nav ul li a:hover {
     border: 1px solid #010000;
 }
 
+/* Optional: Style the default visible tab (if needed) */
 #home.tab-content {
     display: block;
 }
 
 .navbar ul {
-    z-index: 1000; 
+    z-index: 1000; /* Ensures the navbar is on top of other elements */
 }
 
 
